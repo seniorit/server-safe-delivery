@@ -4,8 +4,7 @@
   "description": "Servidor App delivery",
   "main": "app.js",
   "scripts": {
-    "test": "",
-    "start": "nodemon app"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "flutter",
