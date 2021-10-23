@@ -11,15 +11,6 @@ types.setTypeParser(1114, function (stringValue) {
 });
 
 const databaseConfig = {
-  // 'host': '127.0.0.1',
-  // 'port': 5432,
-  // 'database': 'deliverydb',
-  // 'user': 'postgres',
-  // 'password': '132632'
-};
-
-
-const databaseConfig = {
   'host': 'ec2-52-71-241-37.compute-1.amazonaws.com',
   'port': 5432,
   'database': 'dfo2htn7lrjnig',

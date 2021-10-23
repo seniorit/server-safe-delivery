@@ -1,8 +1,5 @@
 const Usuario = require('../controllers/usuario');
 const passport = require('passport');
-const multer = require('multer');
-
-
 module.exports = (app, upload) => {
 
 
