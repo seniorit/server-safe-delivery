@@ -18,17 +18,18 @@ const databaseConfig = {
   // 'password': '132632'
 };
 
-// const databaseConfig = {
-//   'host': 'ec2-18-211-243-247.compute-1.amazonaws.com',
-//   'port': 5432,
-//   'database': 'dabhvt11a1qgqo',
-//   'user': 'pjikfmezuucsca',
-//   'password': 'f37a064cdc669bea1b9fc228f227cc72ff31ae74e922b7a7011628c7d343d78f',
-//   'ssl': {
-//     'require': true, // This will help you. But you will see nwe error
-//     'rejectUnauthorized': false // This line will fix new error
-//   }
-// };
+
+const databaseConfig = {
+  'host': 'ec2-52-71-241-37.compute-1.amazonaws.com',
+  'port': 5432,
+  'database': 'dfo2htn7lrjnig',
+  'user': 'badmuftkhnwajc',
+  'password': '5712ba98242dfaca3b18f8f26da775a9258ebee82ae04387dd9aabaea7a4a6f2',
+  'ssl': {
+    'require': true, // This will help you. But you will see nwe error
+    'rejectUnauthorized': false // This line will fix new error
+  }
+};
 
 const db = pgp(databaseConfig);
 module.exports = db;
